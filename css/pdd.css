@@ -10,6 +10,10 @@ div[data-role='page'] {
 	background-position: center top;
 }
 
+div[data-role='content'] h1 {
+	font-size: medium;
+}
+
 div[data-role='content'] h2 {
 	font-size: medium;
 }
