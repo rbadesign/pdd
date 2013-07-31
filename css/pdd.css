@@ -1,0 +1,11 @@
+/* CSS Document */
+
+body {
+	text-align: center;
+}
+
+div[data-role='page'] {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	background-position: center top;
+}
