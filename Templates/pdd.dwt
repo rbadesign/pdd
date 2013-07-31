@@ -42,8 +42,7 @@
     <body>
     <div id="pdd" data-role="page">
         <div data-role="header" data-position="fixed">
-            <h2><!-- TemplateBeginEditable name="header" -->
-        <!-- TemplateEndEditable --></h2>
+            <h2>Правила дорожного движения</h2>
         </div>
 	    <div data-role="content">
         <!-- TemplateBeginEditable name="content" -->
