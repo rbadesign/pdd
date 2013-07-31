@@ -13,7 +13,7 @@
       
         <!-- Extra Codiqa features -->
         <link rel="stylesheet" href="css/codiqa.ext.css">
-        <link rel="stylesheet" href="css/phonespell.css">
+        <link rel="stylesheet" href="css/pdd.css">
   
 		<script src="phonegap.js"></script>
       
@@ -25,8 +25,8 @@
 				$.support.cors = true;
 				$.mobile.allowCrossDomainPages = true;
 				$.mobile.phonegapNavigationEnabled = true;
-				$.mobile.page.prototype.options.domCache = true;
-				$.mobile.ajaxEnabled=true;
+				$.mobile.page.prototype.options.domCache = false;
+				$.mobile.ajaxEnabled=false;
 				$.mobile.pushStateEnabled=true;
 			});
         </script>
@@ -42,10 +42,16 @@
     <body>
     <div id="pdd" data-role="page">
         <div data-role="header" data-position="fixed">
+	        <a href="index.html" data-icon="home" data-iconpos="notext"></a>
             <h2>Правила дорожного движения</h2>
         </div>
 	    <div data-role="content">
         <!-- InstanceBeginEditable name="content" -->
+<ul data-role="listview">
+
+<li><a href="exm/ab/index.htm">Категория AB</a>
+<li><a href="exm/cd/index.htm">Категория CD</a>
+</ul>
         <!-- InstanceEndEditable -->
     	</div>
     </div>

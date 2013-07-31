@@ -9,3 +9,20 @@ div[data-role='page'] {
 	background-repeat: repeat;
 	background-position: center top;
 }
+
+div[data-role='content'] h2 {
+	font-size: medium;
+}
+
+div[data-role='content'] h3 {
+	font-size: medium;
+}
+
+div[data-role='content'] img {
+	width: 100%;
+	max-width:480px;
+}
+
+li a {
+     white-space:normal !important;
+}​
