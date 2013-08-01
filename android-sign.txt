@@ -1,3 +1,0 @@
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore pdd.keystore platforms\android\bin\PDD-debug.apk pdd
-jarsigner -verify platforms\android\bin\PDD-debug.apk
-pause
