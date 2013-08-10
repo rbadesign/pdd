@@ -2,11 +2,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.rbadesign.pdd"
+		versionCode="2" 
         version   = "1.0.0">
     <name>PDD</name>
 
     <description>
-		You can take a theoretical course on tickets SDA categories «A», «B», «C» and «D» of the Russian Federation to prepare for the exam in the SAI (STSI). Number of tickets - 40. Each ticket 20 questions. In order to pass the exam is allowed to make no more than 2 errors. The response time of the ticket - 20 minutes. The content of tickets for traffic rules is fully consistent with the traffic police official tickets as amended on March 1, 2013.
+		You can take a theoretical course on tickets SDA categories «A», «B», «C» and «D» of the Russian Federation to prepare for the exam in the SAI (STSI). Number of tickets - 40. Each ticket 20 questions. In order to pass the exam is allowed to make no more than 2 errors. The response time of the ticket - 20 minutes.
     </description>
 
     <author href="http://rbadesign.us" email="protopopov@rba-design.ru">
@@ -26,6 +27,10 @@
 	<feature name="http://api.phonegap.com/1.0/media"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
     -->
+    <feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<access origin="*" />
 
 	<preference name="android-minSdkVersion" value="10" />
 	

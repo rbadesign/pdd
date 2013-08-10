@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-	text-align: center;
+	text-align: justify;
 }
 
 div[data-role='page'] {
@@ -25,6 +25,10 @@ div[data-role='content'] h3 {
 div[data-role='content'] img {
 	width: 100%;
 	max-width:480px;
+}
+
+div[data-role='footer'] {
+	text-align: center;
 }
 
 li a {

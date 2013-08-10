@@ -19,17 +19,7 @@
       
         <!-- jQuery and jQuery Mobile -->
         <script src="../../../js/jquery.js"></script>
-        <script type="text/javascript">
-			$(document).bind('mobileinit',function(){
-				$.mobile.selectmenu.prototype.options.nativeMenu = false;
-				$.support.cors = true;
-				$.mobile.allowCrossDomainPages = true;
-				$.mobile.phonegapNavigationEnabled = true;
-				$.mobile.page.prototype.options.domCache = false;
-				$.mobile.ajaxEnabled=false;
-				$.mobile.pushStateEnabled=true;
-			});
-        </script>
+        <script src="../../../js/jquery.mobile.config.js"></script>
         <script src="../../../js/jquery.mobile.js"></script>
         
         <!-- Extra Codiqa features -->
@@ -53,7 +43,7 @@
 <center><img src=16.jpg></center>
 <center><h2>Двигаясь по автомагистрали, Вы можете произвести остановку:</h2></center>
 <hr>
-<h3>Варианты ответа:</h3>
+<center><h3>Варианты ответа:</h3></center>
 <div data-role="fieldcontain"><ol data-role="listview">
 
 <li><a href=161.htm>Только через 500 м.</a><li><a href=160.htm>В любом месте правее линии, обозначающей край проезжей части.</a><li><a href=160.htm>В любом месте у края проезжей части.</a></ol></div>
@@ -61,6 +51,9 @@
 <!--<a data-role="button" href="../index.htm">К выбору билета</a>-->
         <!-- InstanceEndEditable -->
     	</div>
+        <div data-role="footer" data-position="fixed">
+	        <a data-icon="alert" data-inline="true" data-theme="e" class="buy-pro">Купить Pro версию</a>
+        </div>
     </div>
     </body>
 <!-- InstanceEnd --></html>
